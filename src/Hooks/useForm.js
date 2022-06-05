@@ -12,6 +12,11 @@ const types = {
     message:
       "No minino 8 caracteres, no máximo 20 caracteres, pelo menos uma letra maiscula, uma minuscula, um digito e um caractere especial",
   },
+  number: {
+    regex: /^\d+$/,
+    message:
+    "Utilize números apenas."
+  }
 };
 
 const useForm = (type) => {
